@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Configura tu bucket GCP
 GCP_BUCKET_NAME = "bkt-sales-data-2611"
 
-client = storage.Client(project='windy-lyceum-475920-n3')
+client = storage.Client(project='xxxxxxxx-xxxxx')
 
 
 def upload_to_gcp(file):
@@ -36,4 +36,4 @@ def upload_file():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
