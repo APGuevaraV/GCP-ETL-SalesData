@@ -61,7 +61,9 @@ BI conectado a BigQuery para dashboards y análisis.
     │   ├── requirements.txt
     │
     ├── docs/
-    │   └── arquitectura.png
+    │   ├── architecture.jpg
+    │   ├── locker-summary.jpg
+    |   ├── locker-summary_table.jpg
     │
     ├── bigquery/
     │   └── create_views.sql
